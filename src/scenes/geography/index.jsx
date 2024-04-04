@@ -1,9 +1,9 @@
 import React from 'react'
 import { Box } from "@mui/material";
+import {useTheme} from '@mui/material';
 import Header from "../../components/Header";
 import GeographyChart from '../../components/GeographyChart';
 import { tokens } from '../../themes';
-import {useTheme} from '@mui/material';
 
 const Geography = () => {
     const theme = useTheme();

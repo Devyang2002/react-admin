@@ -42,7 +42,7 @@ const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const[selected, setSelected] = useState("Dashboard");
   return (
-    <Box
+    <Box 
     sx={{
       "& .ps-sidebar-root": {
           background: `${colors.primary[400]} !important`,
